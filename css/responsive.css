@@ -427,11 +427,12 @@
     header .logo-header {
         width: 90%;
         background: #665f57;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        margin-top: 7px;
+        padding-bottom: 3px;
+        padding-top: 2px;
+        margin-top: 5px;
         margin-left: 7px;
         min-height: 21px;
+        padding-left: 20px;
     }
     header .logo-header img {
         width: 80%;
@@ -522,7 +523,7 @@
     .block-about .content-about::after {
         width: 150px;
         height: 170px;
-        right: 0;
+        right: -15px;
         top: 50%;
         background-size: 100% 100%;
         z-index: 23;
@@ -531,6 +532,10 @@
         margin: 0 auto;
         text-align: center;
         justify-content: center;
+        font-size: 45px;
+    }
+    .block-works .title-works-left h2 span {
+        margin-left: 10px;
     }
     .title-works-right {
         width: 80%;
@@ -539,6 +544,8 @@
     .block-works .title-works-right .title {
         max-width: 100%;
         min-width: 0;
+        min-height: 40px;
+        line-height: 40px;
     }
     .block-works .header-works {
         padding: 25px 0;
@@ -547,7 +554,6 @@
         display: block;
     }
     .header-top {
-        background: rgb(63, 60, 54, 62%);
         padding-bottom: 5px;
         position: absolute;
         width: 100%;
@@ -694,7 +700,7 @@
     }
     .block-snow .item-snow {
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
     }
     .block-snow .content-snow {
         padding-left: 25px;
@@ -993,6 +999,7 @@
     }
     .block-lineup .content-lineup .item-line .name-line a p {
         display: block;
+        font-size: 14px;
     }
     .block-lineup .content-lineup .item-line.bg1 {
         position: relative;
