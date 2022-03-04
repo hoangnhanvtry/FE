@@ -40,6 +40,32 @@
 }
 
 @media (min-width: 751px) and (max-width: 1500px) {
+    .block-lineup .content-lineup .item-line .name-line .jp {
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+        -webkit-text-orientation: upright;
+        -moz-text-orientation: upright;
+        -ms-text-orientation: upright;
+        text-orientation: upright;
+        font-size: 22px;
+        font-family: 'Noto Serif Display', serif;
+        color: #fff;
+    }
+    .block-lineup .content-lineup .item-line .name-line .en {
+        -webkit-writing-mode: vertical-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+        -webkit-text-orientation: mixed;
+        -moz-text-orientation: mixed;
+        -ms-text-orientation: mixed;
+        text-orientation: mixed;
+        font-size: 14px;
+        font-family: 'Noto Serif Display', serif;
+        letter-spacing: 1px
+    }
     nav ul {
         padding: 0;
         margin: 0;
