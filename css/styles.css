@@ -2189,7 +2189,7 @@ footer .social-ft {
     display: none;
     position: fixed;
     bottom: -1px;
-    z-index: 23;
+    z-index: 2;
     width: 100%;
 }
 
