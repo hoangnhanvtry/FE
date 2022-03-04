@@ -2233,13 +2233,14 @@ footer .social-ft {
 }
 
 .phone-fixed .col-address a:before {
-    background: url(../images/icon_m_address.png) center left no-repeat;
+    background: url(../images/address1.png) center left no-repeat;
     position: absolute;
     top: -3px;
     left: -41px;
     content: "";
-    width: 26px;
-    height: 26px;
+    width: 29px;
+    height: 30px;
+    background-size: cover;
 }
 
 .mob {
