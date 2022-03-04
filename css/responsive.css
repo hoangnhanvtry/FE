@@ -914,7 +914,7 @@
     footer .text-footer h2 {
         font-size: 40px;
     }
-    footer #customers-table {
+    footer .customers-table {
         width: 70%;
         margin: 0 auto;
     }

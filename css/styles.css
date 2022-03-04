@@ -2062,7 +2062,7 @@ footer .text-table h3 {
     color: #fff
 }
 
-footer #customers-table {
+footer .customers-table {
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 11px;
