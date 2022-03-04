@@ -2263,7 +2263,7 @@ footer .social-ft {
     visibility: hidden;
     transition: all 0.3s linear;
     text-align: center;
-    z-index: 99;
+    z-index: 2;
     margin-bottom: 0px;
     text-indent: -9999px;
     display: block;
