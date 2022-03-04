@@ -2284,6 +2284,10 @@ footer .social-ft {
     border-radius: 50%;
 }
 
+.pc750 {
+    display: none;
+}
+
 
 /* .header-top.fixed {
     position: fixed;
