@@ -1,17 +1,20 @@
 // anchor in page
 
 function initBackToTop() {
-    $('a[href^="#"]').click(function() {
-        if ($($(this).attr('href')).length) {
-            var p = $($(this).attr('href')).offset();
-            if ($(window).width() > 750) {
-                $('html,body').animate({ scrollTop: p.top - 170 }, 400);
-            } else {
-                $('html,body').animate({ scrollTop: p.top - 100 }, 400);
-            }
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+            $('#toTop').fadeIn(300);
+        } else {
+            $('#toTop').fadeOut(300);
         }
-        return false;
     });
+
+    $('#toTop').click(function() {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+    });
+
 }
 // anchor top page #
 $(window).bind('load', function() {

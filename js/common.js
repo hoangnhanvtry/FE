@@ -1,4 +1,5 @@
 function scrollTopMenu() {
+
     $(window).scroll(function() {
         if ($(window).scrollTop() > 1) {
             $(".header-top").addClass("fixed");

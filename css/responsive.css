@@ -972,7 +972,7 @@
         text-align: left;
         font-family: 'Noto Serif Display', serif;
         font-size: 18px;
-        background: url(../images/icon6.jpg) 20px 22px no-repeat;
+        background: url(../images/address1.png) 25px 26px no-repeat;
         padding-left: 77px;
         margin-bottom: 30px;
     }
@@ -1015,13 +1015,16 @@
         display: block;
     }
     .block-lineup .content-lineup .item-line .icon-line {
-        left: 0 !important;
+        left: 0;
         position: absolute;
         top: 3px;
         z-index: 2;
         width: 83px;
         text-align: center;
         margin: 0;
+    }
+    .block-lineup .content-lineup .item-line .icon-line.fisrt {
+        left: -5px;
     }
     .block-lineup .content-lineup .item-line .name-line a p {
         display: block;
@@ -1058,6 +1061,13 @@
     .block-lineup .content-lineup .item-line .box-line.box3,
     .block-lineup .content-lineup .item-line .box-line.box4 {
         bottom: 0;
+    }
+    .block-lineup .content-lineup .item-line .box-line.box3 .icon-line {
+        left: -10px;
+    }
+    .block-lineup .content-lineup .item-line .box-line.box4 .icon-line {
+        left: -10px;
+        top: -4px;
     }
     .block-lineup .content-lineup .box-line::before {
         content: "";
